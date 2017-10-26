@@ -36,6 +36,7 @@ nav {
     float: right;
     width: 300px;
     margin: 0 auto;
+    padding-right: 265px;
 
 }
 
@@ -55,7 +56,7 @@ nav {
 
 h2 {
     color: #4aaaa5;
-    border-bottom: 4px solid red;
+    border-bottom: 1px solid gray;
 }
 
 p {
@@ -63,8 +64,8 @@ p {
 }
 
 #Selfie{
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 250px;
     float: left;
     clear: right;
 }
@@ -75,16 +76,37 @@ p {
     margin-left: 10px;
     padding: 5px;
     float: left;
+}
 
+.container2 {
+    margin: 0 auto;
 }
 
 h3{
+    text-align: center;
+}
 
+#StackOverflow {
+    padding-top: 4px;
+    margin-left: 3px;
+    height: 57px;
+    width: 57px;
+    float:left;
+}
+
+#GitHub {
+    margin-left: 39px;
+}
+
+#GitHub,
+#LinkedIn {
+    height: 64px;
+    width: 64px;
+    float: left;
 }
 
 ul a:link {
     text-decoration: none;
-
 }
 
 footer {
@@ -96,7 +118,5 @@ footer {
     position: absolute;
     bottom: 0;
     left: 0;
-    right: 0;
     margin: 0;
-
 }
